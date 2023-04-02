@@ -15,9 +15,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            endingLineNumber = "113">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -50,6 +48,22 @@
             endingLineNumber = "82"
             landmarkName = "body"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9E3437D-5994-4264-874E-D34D3A315D8D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "practicaIOSSuperpoderes/Models/MarvelCharactersModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "StoriesItem"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
