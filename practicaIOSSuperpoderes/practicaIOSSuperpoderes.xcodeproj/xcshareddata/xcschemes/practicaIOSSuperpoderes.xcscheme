@@ -79,6 +79,17 @@
                ReferencedContainer = "container:practicaIOSSuperpoderes.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D6C47EDB29DB40D00028502C"
+               BuildableName = "practicaIOSSuperpoderesTests2.xctest"
+               BlueprintName = "practicaIOSSuperpoderesTests2"
+               ReferencedContainer = "container:practicaIOSSuperpoderes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

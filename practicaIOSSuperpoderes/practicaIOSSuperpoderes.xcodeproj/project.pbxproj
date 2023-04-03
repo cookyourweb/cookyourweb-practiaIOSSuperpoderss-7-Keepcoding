@@ -7,81 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D600BE5429DADB4600084C52 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA85129D6F78F0050A625 /* Persistence.swift */; };
-		D600BE5529DADB4700084C52 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA85129D6F78F0050A625 /* Persistence.swift */; };
 		D600BE5929DAF47C00084C52 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600BE5829DAF47C00084C52 /* LoaderView.swift */; };
-		D600BE5A29DAF47C00084C52 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600BE5829DAF47C00084C52 /* LoaderView.swift */; };
-		D600BE5B29DAF47C00084C52 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600BE5829DAF47C00084C52 /* LoaderView.swift */; };
 		D62949BD29D84BF700705AA6 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62949BC29D84BF700705AA6 /* StatusModel.swift */; };
-		D62949BE29D84BF700705AA6 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62949BC29D84BF700705AA6 /* StatusModel.swift */; };
-		D62949BF29D84BF700705AA6 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62949BC29D84BF700705AA6 /* StatusModel.swift */; };
 		D62949C129D84D6200705AA6 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62949C029D84D6200705AA6 /* BaseNetwork.swift */; };
-		D62949C229D84D6200705AA6 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62949C029D84D6200705AA6 /* BaseNetwork.swift */; };
-		D62949C329D84D6200705AA6 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62949C029D84D6200705AA6 /* BaseNetwork.swift */; };
 		D6998F2529D8BA70006D400B /* MarvelCharacterSeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F2429D8BA70006D400B /* MarvelCharacterSeriesModel.swift */; };
-		D6998F2629D8BA70006D400B /* MarvelCharacterSeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F2429D8BA70006D400B /* MarvelCharacterSeriesModel.swift */; };
-		D6998F2729D8BA70006D400B /* MarvelCharacterSeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F2429D8BA70006D400B /* MarvelCharacterSeriesModel.swift */; };
 		D6998F2929D8C069006D400B /* MarvelCharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F2829D8C069006D400B /* MarvelCharactersModel.swift */; };
-		D6998F2A29D8C069006D400B /* MarvelCharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F2829D8C069006D400B /* MarvelCharactersModel.swift */; };
-		D6998F2B29D8C069006D400B /* MarvelCharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F2829D8C069006D400B /* MarvelCharactersModel.swift */; };
 		D6998F2D29D8C674006D400B /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F2C29D8C674006D400B /* CharacterViewModel.swift */; };
-		D6998F2E29D8C674006D400B /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F2C29D8C674006D400B /* CharacterViewModel.swift */; };
-		D6998F2F29D8C674006D400B /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F2C29D8C674006D400B /* CharacterViewModel.swift */; };
 		D6998F3129D8C985006D400B /* CharacterSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3029D8C985006D400B /* CharacterSeriesViewModel.swift */; };
-		D6998F3229D8C985006D400B /* CharacterSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3029D8C985006D400B /* CharacterSeriesViewModel.swift */; };
-		D6998F3329D8C985006D400B /* CharacterSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3029D8C985006D400B /* CharacterSeriesViewModel.swift */; };
 		D6998F3529D8D746006D400B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3429D8D746006D400B /* RootView.swift */; };
-		D6998F3629D8D746006D400B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3429D8D746006D400B /* RootView.swift */; };
-		D6998F3729D8D746006D400B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3429D8D746006D400B /* RootView.swift */; };
 		D6998F3A29D8D87F006D400B /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3929D8D87F006D400B /* PrincipalView.swift */; };
-		D6998F3B29D8D87F006D400B /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3929D8D87F006D400B /* PrincipalView.swift */; };
-		D6998F3C29D8D87F006D400B /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3929D8D87F006D400B /* PrincipalView.swift */; };
 		D6998F3F29D8DBB2006D400B /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3E29D8DBB2006D400B /* CharacterView.swift */; };
-		D6998F4029D8DBB2006D400B /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3E29D8DBB2006D400B /* CharacterView.swift */; };
-		D6998F4129D8DBB2006D400B /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3E29D8DBB2006D400B /* CharacterView.swift */; };
 		D6998F4329D8DC66006D400B /* CharacterViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4229D8DC66006D400B /* CharacterViewRow.swift */; };
-		D6998F4429D8DC66006D400B /* CharacterViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4229D8DC66006D400B /* CharacterViewRow.swift */; };
-		D6998F4529D8DC66006D400B /* CharacterViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4229D8DC66006D400B /* CharacterViewRow.swift */; };
 		D6998F4729D8DC80006D400B /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4629D8DC80006D400B /* CharacterDetailView.swift */; };
-		D6998F4829D8DC80006D400B /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4629D8DC80006D400B /* CharacterDetailView.swift */; };
-		D6998F4929D8DC80006D400B /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4629D8DC80006D400B /* CharacterDetailView.swift */; };
 		D6998F4B29D8DCA2006D400B /* CharacterSeriesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4A29D8DCA2006D400B /* CharacterSeriesRow.swift */; };
-		D6998F4C29D8DCA2006D400B /* CharacterSeriesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4A29D8DCA2006D400B /* CharacterSeriesRow.swift */; };
-		D6998F4D29D8DCA2006D400B /* CharacterSeriesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4A29D8DCA2006D400B /* CharacterSeriesRow.swift */; };
 		D6998F5029D9445E006D400B /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4F29D9445E006D400B /* RootViewModel.swift */; };
-		D6998F5129D9445E006D400B /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4F29D9445E006D400B /* RootViewModel.swift */; };
-		D6998F5229D9445E006D400B /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F4F29D9445E006D400B /* RootViewModel.swift */; };
-		D6998F8F29D94A82006D400B /* practicaIOSSuperpoderesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA84F29D6F78F0050A625 /* practicaIOSSuperpoderesApp.swift */; };
-		D6998F9029D94A83006D400B /* practicaIOSSuperpoderesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA84F29D6F78F0050A625 /* practicaIOSSuperpoderesApp.swift */; };
+		D6C47EEC29DB417F0028502C /* practicaIOSSuperpoderesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C47EEB29DB417F0028502C /* practicaIOSSuperpoderesTests.swift */; };
+		D6C47EF929DB41930028502C /* practicaIOSSuperpoderesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C47EF829DB41930028502C /* practicaIOSSuperpoderesUITests.swift */; };
+		D6C47EFB29DB41930028502C /* practicaIOSSuperpoderesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C47EFA29DB41930028502C /* practicaIOSSuperpoderesUITestsLaunchTests.swift */; };
+		D6C47F0329DB44A30028502C /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D6C47F0229DB44A30028502C /* KeychainSwift */; };
+		D6C47F0529DB44A80028502C /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D6C47F0429DB44A80028502C /* KeychainSwift */; };
 		D6CBA85029D6F78F0050A625 /* practicaIOSSuperpoderesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA84F29D6F78F0050A625 /* practicaIOSSuperpoderesApp.swift */; };
 		D6CBA85229D6F78F0050A625 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA85129D6F78F0050A625 /* Persistence.swift */; };
 		D6CBA85529D6F78F0050A625 /* practicaIOSSuperpoderes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA85329D6F78F0050A625 /* practicaIOSSuperpoderes.xcdatamodeld */; };
 		D6CBA85929D6F7930050A625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CBA85829D6F7930050A625 /* Assets.xcassets */; };
 		D6CBA85D29D6F7930050A625 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CBA85C29D6F7930050A625 /* Preview Assets.xcassets */; };
-		D6CBA86729D6F7940050A625 /* practicaIOSSuperpoderesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA86629D6F7940050A625 /* practicaIOSSuperpoderesTests.swift */; };
-		D6CBA87129D6F7940050A625 /* practicaIOSSuperpoderesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA87029D6F7940050A625 /* practicaIOSSuperpoderesUITests.swift */; };
-		D6CBA87329D6F7940050A625 /* practicaIOSSuperpoderesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA87229D6F7940050A625 /* practicaIOSSuperpoderesUITestsLaunchTests.swift */; };
 		D6CBA88629D6FD5B0050A625 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA88529D6FD5B0050A625 /* LoginView.swift */; };
-		D6CBA88729D6FD5C0050A625 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA88529D6FD5B0050A625 /* LoginView.swift */; };
-		D6CBA88829D6FD5C0050A625 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA88529D6FD5B0050A625 /* LoginView.swift */; };
 		D6CBA88C29D6FF780050A625 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D6CBA88B29D6FF780050A625 /* KeychainSwift */; };
 		D6CBA89129D702630050A625 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6CBA89529D702630050A625 /* Localizable.strings */; };
-		D6CBA89229D702630050A625 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6CBA89529D702630050A625 /* Localizable.strings */; };
-		D6CBA89329D702630050A625 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6CBA89529D702630050A625 /* Localizable.strings */; };
 		D6CBA89829D7576C0050A625 /* keyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA89729D7576C0050A625 /* keyChain.swift */; };
-		D6CBA89929D7576C0050A625 /* keyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA89729D7576C0050A625 /* keyChain.swift */; };
-		D6CBA89A29D7576C0050A625 /* keyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBA89729D7576C0050A625 /* keyChain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D6CBA86329D6F7940050A625 /* PBXContainerItemProxy */ = {
+		D6C47EED29DB417F0028502C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6CBA84429D6F78E0050A625 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D6CBA84B29D6F78E0050A625;
 			remoteInfo = practicaIOSSuperpoderes;
 		};
-		D6CBA86D29D6F7940050A625 /* PBXContainerItemProxy */ = {
+		D6C47EFC29DB41930028502C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6CBA84429D6F78E0050A625 /* Project object */;
 			proxyType = 1;
@@ -106,6 +70,11 @@
 		D6998F4629D8DC80006D400B /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
 		D6998F4A29D8DCA2006D400B /* CharacterSeriesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSeriesRow.swift; sourceTree = "<group>"; };
 		D6998F4F29D9445E006D400B /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		D6C47EE929DB417F0028502C /* practicaIOSSuperpoderesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practicaIOSSuperpoderesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C47EEB29DB417F0028502C /* practicaIOSSuperpoderesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaIOSSuperpoderesTests.swift; sourceTree = "<group>"; };
+		D6C47EF629DB41930028502C /* practicaIOSSuperpoderesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practicaIOSSuperpoderesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C47EF829DB41930028502C /* practicaIOSSuperpoderesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaIOSSuperpoderesUITests.swift; sourceTree = "<group>"; };
+		D6C47EFA29DB41930028502C /* practicaIOSSuperpoderesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaIOSSuperpoderesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6CBA84C29D6F78E0050A625 /* practicaIOSSuperpoderes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practicaIOSSuperpoderes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CBA84F29D6F78F0050A625 /* practicaIOSSuperpoderesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaIOSSuperpoderesApp.swift; sourceTree = "<group>"; };
 		D6CBA85129D6F78F0050A625 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -113,9 +82,7 @@
 		D6CBA85829D6F7930050A625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6CBA85A29D6F7930050A625 /* practicaIOSSuperpoderes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = practicaIOSSuperpoderes.entitlements; sourceTree = "<group>"; };
 		D6CBA85C29D6F7930050A625 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D6CBA86229D6F7940050A625 /* practicaIOSSuperpoderesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practicaIOSSuperpoderesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CBA86629D6F7940050A625 /* practicaIOSSuperpoderesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaIOSSuperpoderesTests.swift; sourceTree = "<group>"; };
-		D6CBA86C29D6F7940050A625 /* practicaIOSSuperpoderesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practicaIOSSuperpoderesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CBA87029D6F7940050A625 /* practicaIOSSuperpoderesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaIOSSuperpoderesUITests.swift; sourceTree = "<group>"; };
 		D6CBA87229D6F7940050A625 /* practicaIOSSuperpoderesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaIOSSuperpoderesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6CBA88529D6FD5B0050A625 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -125,25 +92,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D6C47EE629DB417F0028502C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C47F0329DB44A30028502C /* KeychainSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C47EF329DB41930028502C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C47F0529DB44A80028502C /* KeychainSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6CBA84929D6F78E0050A625 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D6CBA88C29D6FF780050A625 /* KeychainSwift in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6CBA85F29D6F7940050A625 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6CBA86929D6F7940050A625 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,13 +146,40 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		D6C47EEA29DB417F0028502C /* practicaIOSSuperpoderesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C47EEB29DB417F0028502C /* practicaIOSSuperpoderesTests.swift */,
+			);
+			path = practicaIOSSuperpoderesTests;
+			sourceTree = "<group>";
+		};
+		D6C47EF729DB41930028502C /* practicaIOSSuperpoderesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C47EF829DB41930028502C /* practicaIOSSuperpoderesUITests.swift */,
+				D6C47EFA29DB41930028502C /* practicaIOSSuperpoderesUITestsLaunchTests.swift */,
+			);
+			path = practicaIOSSuperpoderesUITests;
+			sourceTree = "<group>";
+		};
+		D6C47F0129DB44A30028502C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6CBA84329D6F78E0050A625 = {
 			isa = PBXGroup;
 			children = (
 				D6CBA84E29D6F78E0050A625 /* practicaIOSSuperpoderes */,
 				D6CBA86529D6F7940050A625 /* practicaIOSSuperpoderesTests */,
 				D6CBA86F29D6F7940050A625 /* practicaIOSSuperpoderesUITests */,
+				D6C47EEA29DB417F0028502C /* practicaIOSSuperpoderesTests */,
+				D6C47EF729DB41930028502C /* practicaIOSSuperpoderesUITests */,
 				D6CBA84D29D6F78E0050A625 /* Products */,
+				D6C47F0129DB44A30028502C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,8 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				D6CBA84C29D6F78E0050A625 /* practicaIOSSuperpoderes.app */,
-				D6CBA86229D6F7940050A625 /* practicaIOSSuperpoderesTests.xctest */,
-				D6CBA86C29D6F7940050A625 /* practicaIOSSuperpoderesUITests.xctest */,
+				D6C47EE929DB417F0028502C /* practicaIOSSuperpoderesTests.xctest */,
+				D6C47EF629DB41930028502C /* practicaIOSSuperpoderesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -301,6 +297,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D6C47EE829DB417F0028502C /* practicaIOSSuperpoderesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C47EEF29DB417F0028502C /* Build configuration list for PBXNativeTarget "practicaIOSSuperpoderesTests" */;
+			buildPhases = (
+				D6C47EE529DB417F0028502C /* Sources */,
+				D6C47EE629DB417F0028502C /* Frameworks */,
+				D6C47EE729DB417F0028502C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C47EEE29DB417F0028502C /* PBXTargetDependency */,
+			);
+			name = practicaIOSSuperpoderesTests;
+			packageProductDependencies = (
+				D6C47F0229DB44A30028502C /* KeychainSwift */,
+			);
+			productName = practicaIOSSuperpoderesTests;
+			productReference = D6C47EE929DB417F0028502C /* practicaIOSSuperpoderesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6C47EF529DB41930028502C /* practicaIOSSuperpoderesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C47EFE29DB41930028502C /* Build configuration list for PBXNativeTarget "practicaIOSSuperpoderesUITests" */;
+			buildPhases = (
+				D6C47EF229DB41930028502C /* Sources */,
+				D6C47EF329DB41930028502C /* Frameworks */,
+				D6C47EF429DB41930028502C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C47EFD29DB41930028502C /* PBXTargetDependency */,
+			);
+			name = practicaIOSSuperpoderesUITests;
+			packageProductDependencies = (
+				D6C47F0429DB44A80028502C /* KeychainSwift */,
+			);
+			productName = practicaIOSSuperpoderesUITests;
+			productReference = D6C47EF629DB41930028502C /* practicaIOSSuperpoderesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D6CBA84B29D6F78E0050A625 /* practicaIOSSuperpoderes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6CBA87629D6F7940050A625 /* Build configuration list for PBXNativeTarget "practicaIOSSuperpoderes" */;
@@ -321,42 +359,6 @@
 			productReference = D6CBA84C29D6F78E0050A625 /* practicaIOSSuperpoderes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D6CBA86129D6F7940050A625 /* practicaIOSSuperpoderesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6CBA87929D6F7940050A625 /* Build configuration list for PBXNativeTarget "practicaIOSSuperpoderesTests" */;
-			buildPhases = (
-				D6CBA85E29D6F7940050A625 /* Sources */,
-				D6CBA85F29D6F7940050A625 /* Frameworks */,
-				D6CBA86029D6F7940050A625 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D6CBA86429D6F7940050A625 /* PBXTargetDependency */,
-			);
-			name = practicaIOSSuperpoderesTests;
-			productName = practicaIOSSuperpoderesTests;
-			productReference = D6CBA86229D6F7940050A625 /* practicaIOSSuperpoderesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D6CBA86B29D6F7940050A625 /* practicaIOSSuperpoderesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6CBA87C29D6F7940050A625 /* Build configuration list for PBXNativeTarget "practicaIOSSuperpoderesUITests" */;
-			buildPhases = (
-				D6CBA86829D6F7940050A625 /* Sources */,
-				D6CBA86929D6F7940050A625 /* Frameworks */,
-				D6CBA86A29D6F7940050A625 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D6CBA86E29D6F7940050A625 /* PBXTargetDependency */,
-			);
-			name = practicaIOSSuperpoderesUITests;
-			productName = practicaIOSSuperpoderesUITests;
-			productReference = D6CBA86C29D6F7940050A625 /* practicaIOSSuperpoderesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -367,16 +369,16 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					D6C47EE829DB417F0028502C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D6CBA84B29D6F78E0050A625;
+					};
+					D6C47EF529DB41930028502C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D6CBA84B29D6F78E0050A625;
+					};
 					D6CBA84B29D6F78E0050A625 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					D6CBA86129D6F7940050A625 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = D6CBA84B29D6F78E0050A625;
-					};
-					D6CBA86B29D6F7940050A625 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = D6CBA84B29D6F78E0050A625;
 					};
 				};
 			};
@@ -392,19 +394,34 @@
 			mainGroup = D6CBA84329D6F78E0050A625;
 			packageReferences = (
 				D6CBA88A29D6FF770050A625 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				D6C47ED529DB36C20028502C /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = D6CBA84D29D6F78E0050A625 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D6CBA84B29D6F78E0050A625 /* practicaIOSSuperpoderes */,
-				D6CBA86129D6F7940050A625 /* practicaIOSSuperpoderesTests */,
-				D6CBA86B29D6F7940050A625 /* practicaIOSSuperpoderesUITests */,
+				D6C47EE829DB417F0028502C /* practicaIOSSuperpoderesTests */,
+				D6C47EF529DB41930028502C /* practicaIOSSuperpoderesUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D6C47EE729DB417F0028502C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C47EF429DB41930028502C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6CBA84A29D6F78E0050A625 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,25 +432,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6CBA86029D6F7940050A625 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6CBA89229D702630050A625 /* Localizable.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6CBA86A29D6F7940050A625 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6CBA89329D702630050A625 /* Localizable.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D6C47EE529DB417F0028502C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C47EEC29DB417F0028502C /* practicaIOSSuperpoderesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C47EF229DB41930028502C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C47EFB29DB41930028502C /* practicaIOSSuperpoderesUITestsLaunchTests.swift in Sources */,
+				D6C47EF929DB41930028502C /* practicaIOSSuperpoderesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6CBA84829D6F78E0050A625 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,71 +478,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6CBA85E29D6F7940050A625 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6998F3629D8D746006D400B /* RootView.swift in Sources */,
-				D6998F4C29D8DCA2006D400B /* CharacterSeriesRow.swift in Sources */,
-				D6CBA89929D7576C0050A625 /* keyChain.swift in Sources */,
-				D62949BE29D84BF700705AA6 /* StatusModel.swift in Sources */,
-				D6998F4829D8DC80006D400B /* CharacterDetailView.swift in Sources */,
-				D6998F2A29D8C069006D400B /* MarvelCharactersModel.swift in Sources */,
-				D6998F2629D8BA70006D400B /* MarvelCharacterSeriesModel.swift in Sources */,
-				D600BE5A29DAF47C00084C52 /* LoaderView.swift in Sources */,
-				D6998F3B29D8D87F006D400B /* PrincipalView.swift in Sources */,
-				D6998F4029D8DBB2006D400B /* CharacterView.swift in Sources */,
-				D600BE5429DADB4600084C52 /* Persistence.swift in Sources */,
-				D6998F8F29D94A82006D400B /* practicaIOSSuperpoderesApp.swift in Sources */,
-				D6998F3229D8C985006D400B /* CharacterSeriesViewModel.swift in Sources */,
-				D6998F4429D8DC66006D400B /* CharacterViewRow.swift in Sources */,
-				D6998F2E29D8C674006D400B /* CharacterViewModel.swift in Sources */,
-				D6CBA88729D6FD5C0050A625 /* LoginView.swift in Sources */,
-				D6CBA86729D6F7940050A625 /* practicaIOSSuperpoderesTests.swift in Sources */,
-				D6998F5129D9445E006D400B /* RootViewModel.swift in Sources */,
-				D62949C229D84D6200705AA6 /* BaseNetwork.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6CBA86829D6F7940050A625 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6998F5229D9445E006D400B /* RootViewModel.swift in Sources */,
-				D6998F4929D8DC80006D400B /* CharacterDetailView.swift in Sources */,
-				D62949BF29D84BF700705AA6 /* StatusModel.swift in Sources */,
-				D6998F3329D8C985006D400B /* CharacterSeriesViewModel.swift in Sources */,
-				D6998F9029D94A83006D400B /* practicaIOSSuperpoderesApp.swift in Sources */,
-				D6998F4D29D8DCA2006D400B /* CharacterSeriesRow.swift in Sources */,
-				D6998F2F29D8C674006D400B /* CharacterViewModel.swift in Sources */,
-				D6CBA88829D6FD5C0050A625 /* LoginView.swift in Sources */,
-				D600BE5529DADB4700084C52 /* Persistence.swift in Sources */,
-				D6998F4129D8DBB2006D400B /* CharacterView.swift in Sources */,
-				D6998F4529D8DC66006D400B /* CharacterViewRow.swift in Sources */,
-				D6998F3729D8D746006D400B /* RootView.swift in Sources */,
-				D6CBA89A29D7576C0050A625 /* keyChain.swift in Sources */,
-				D6CBA87329D6F7940050A625 /* practicaIOSSuperpoderesUITestsLaunchTests.swift in Sources */,
-				D6998F2729D8BA70006D400B /* MarvelCharacterSeriesModel.swift in Sources */,
-				D6998F2B29D8C069006D400B /* MarvelCharactersModel.swift in Sources */,
-				D6998F3C29D8D87F006D400B /* PrincipalView.swift in Sources */,
-				D600BE5B29DAF47C00084C52 /* LoaderView.swift in Sources */,
-				D6CBA87129D6F7940050A625 /* practicaIOSSuperpoderesUITests.swift in Sources */,
-				D62949C329D84D6200705AA6 /* BaseNetwork.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D6CBA86429D6F7940050A625 /* PBXTargetDependency */ = {
+		D6C47EEE29DB417F0028502C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D6CBA84B29D6F78E0050A625 /* practicaIOSSuperpoderes */;
-			targetProxy = D6CBA86329D6F7940050A625 /* PBXContainerItemProxy */;
+			targetProxy = D6C47EED29DB417F0028502C /* PBXContainerItemProxy */;
 		};
-		D6CBA86E29D6F7940050A625 /* PBXTargetDependency */ = {
+		D6C47EFD29DB41930028502C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D6CBA84B29D6F78E0050A625 /* practicaIOSSuperpoderes */;
-			targetProxy = D6CBA86D29D6F7940050A625 /* PBXContainerItemProxy */;
+			targetProxy = D6C47EFC29DB41930028502C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -541,6 +506,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D6C47EF029DB417F0028502C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razwithvero.practicaIOSSuperpoderesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practicaIOSSuperpoderes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/practicaIOSSuperpoderes";
+			};
+			name = Debug;
+		};
+		D6C47EF129DB417F0028502C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razwithvero.practicaIOSSuperpoderesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practicaIOSSuperpoderes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/practicaIOSSuperpoderes";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C47EFF29DB41930028502C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razwithvero.practicaIOSSuperpoderesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practicaIOSSuperpoderes;
+			};
+			name = Debug;
+		};
+		D6C47F0029DB41930028502C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razwithvero.practicaIOSSuperpoderesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practicaIOSSuperpoderes;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D6CBA87429D6F7940050A625 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -724,95 +765,27 @@
 			};
 			name = Release;
 		};
-		D6CBA87A29D6F7940050A625 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.razwithvero.practicaIOSSuperpoderesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practicaIOSSuperpoderes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/practicaIOSSuperpoderes";
-			};
-			name = Debug;
-		};
-		D6CBA87B29D6F7940050A625 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.razwithvero.practicaIOSSuperpoderesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practicaIOSSuperpoderes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/practicaIOSSuperpoderes";
-			};
-			name = Release;
-		};
-		D6CBA87D29D6F7940050A625 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.razwithvero.practicaIOSSuperpoderesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = practicaIOSSuperpoderes;
-			};
-			name = Debug;
-		};
-		D6CBA87E29D6F7940050A625 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.razwithvero.practicaIOSSuperpoderesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = practicaIOSSuperpoderes;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D6C47EEF29DB417F0028502C /* Build configuration list for PBXNativeTarget "practicaIOSSuperpoderesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C47EF029DB417F0028502C /* Debug */,
+				D6C47EF129DB417F0028502C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C47EFE29DB41930028502C /* Build configuration list for PBXNativeTarget "practicaIOSSuperpoderesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C47EFF29DB41930028502C /* Debug */,
+				D6C47F0029DB41930028502C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D6CBA84729D6F78E0050A625 /* Build configuration list for PBXProject "practicaIOSSuperpoderes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -831,27 +804,17 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6CBA87929D6F7940050A625 /* Build configuration list for PBXNativeTarget "practicaIOSSuperpoderesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6CBA87A29D6F7940050A625 /* Debug */,
-				D6CBA87B29D6F7940050A625 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D6CBA87C29D6F7940050A625 /* Build configuration list for PBXNativeTarget "practicaIOSSuperpoderesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6CBA87D29D6F7940050A625 /* Debug */,
-				D6CBA87E29D6F7940050A625 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D6C47ED529DB36C20028502C /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.5;
+			};
+		};
 		D6CBA88A29D6FF770050A625 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
@@ -863,6 +826,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D6C47F0229DB44A30028502C /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6CBA88A29D6FF770050A625 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		D6C47F0429DB44A80028502C /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6CBA88A29D6FF770050A625 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
 		D6CBA88B29D6FF780050A625 /* KeychainSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D6CBA88A29D6FF770050A625 /* XCRemoteSwiftPackageReference "keychain-swift" */;
