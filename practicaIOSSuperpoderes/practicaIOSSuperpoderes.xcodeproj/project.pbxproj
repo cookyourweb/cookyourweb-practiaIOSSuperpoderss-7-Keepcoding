@@ -25,9 +25,9 @@
 		D6998F3129D8C985006D400B /* CharacterSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3029D8C985006D400B /* CharacterSeriesViewModel.swift */; };
 		D6998F3229D8C985006D400B /* CharacterSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3029D8C985006D400B /* CharacterSeriesViewModel.swift */; };
 		D6998F3329D8C985006D400B /* CharacterSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3029D8C985006D400B /* CharacterSeriesViewModel.swift */; };
-		D6998F3529D8D746006D400B /* RoootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3429D8D746006D400B /* RoootView.swift */; };
-		D6998F3629D8D746006D400B /* RoootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3429D8D746006D400B /* RoootView.swift */; };
-		D6998F3729D8D746006D400B /* RoootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3429D8D746006D400B /* RoootView.swift */; };
+		D6998F3529D8D746006D400B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3429D8D746006D400B /* RootView.swift */; };
+		D6998F3629D8D746006D400B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3429D8D746006D400B /* RootView.swift */; };
+		D6998F3729D8D746006D400B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3429D8D746006D400B /* RootView.swift */; };
 		D6998F3A29D8D87F006D400B /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3929D8D87F006D400B /* PrincipalView.swift */; };
 		D6998F3B29D8D87F006D400B /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3929D8D87F006D400B /* PrincipalView.swift */; };
 		D6998F3C29D8D87F006D400B /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6998F3929D8D87F006D400B /* PrincipalView.swift */; };
@@ -93,7 +93,7 @@
 		D6998F2829D8C069006D400B /* MarvelCharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactersModel.swift; sourceTree = "<group>"; };
 		D6998F2C29D8C674006D400B /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 		D6998F3029D8C985006D400B /* CharacterSeriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSeriesViewModel.swift; sourceTree = "<group>"; };
-		D6998F3429D8D746006D400B /* RoootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoootView.swift; sourceTree = "<group>"; };
+		D6998F3429D8D746006D400B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		D6998F3929D8D87F006D400B /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
 		D6998F3E29D8DBB2006D400B /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		D6998F4229D8DC66006D400B /* CharacterViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewRow.swift; sourceTree = "<group>"; };
@@ -260,7 +260,7 @@
 				D6998F3D29D8DAF5006D400B /* Character */,
 				D6998F3829D8D7A7006D400B /* Home */,
 				D6CBA88429D6FCF50050A625 /* Login */,
-				D6998F3429D8D746006D400B /* RoootView.swift */,
+				D6998F3429D8D746006D400B /* RootView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -443,7 +443,7 @@
 				D62949BD29D84BF700705AA6 /* StatusModel.swift in Sources */,
 				D6998F2D29D8C674006D400B /* CharacterViewModel.swift in Sources */,
 				D6998F3129D8C985006D400B /* CharacterSeriesViewModel.swift in Sources */,
-				D6998F3529D8D746006D400B /* RoootView.swift in Sources */,
+				D6998F3529D8D746006D400B /* RootView.swift in Sources */,
 				D6CBA88629D6FD5B0050A625 /* LoginView.swift in Sources */,
 				D6998F2929D8C069006D400B /* MarvelCharactersModel.swift in Sources */,
 				D6CBA85529D6F78F0050A625 /* practicaIOSSuperpoderes.xcdatamodeld in Sources */,
@@ -456,7 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6998F3629D8D746006D400B /* RoootView.swift in Sources */,
+				D6998F3629D8D746006D400B /* RootView.swift in Sources */,
 				D6998F4C29D8DCA2006D400B /* CharacterSeriesRow.swift in Sources */,
 				D6CBA89929D7576C0050A625 /* keyChain.swift in Sources */,
 				D62949BE29D84BF700705AA6 /* StatusModel.swift in Sources */,
@@ -490,7 +490,7 @@
 				D6CBA88829D6FD5C0050A625 /* LoginView.swift in Sources */,
 				D6998F4129D8DBB2006D400B /* CharacterView.swift in Sources */,
 				D6998F4529D8DC66006D400B /* CharacterViewRow.swift in Sources */,
-				D6998F3729D8D746006D400B /* RoootView.swift in Sources */,
+				D6998F3729D8D746006D400B /* RootView.swift in Sources */,
 				D6CBA89A29D7576C0050A625 /* keyChain.swift in Sources */,
 				D6CBA87329D6F7940050A625 /* practicaIOSSuperpoderesUITestsLaunchTests.swift in Sources */,
 				D6998F2729D8BA70006D400B /* MarvelCharacterSeriesModel.swift in Sources */,

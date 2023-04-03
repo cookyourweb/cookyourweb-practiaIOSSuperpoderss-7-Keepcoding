@@ -18,16 +18,14 @@ struct CharacterViewRow: View {
                 Image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .cornerRadius(10)
-                    .opacity(0.7)
-                    .shadow(radius: 10, x: 10, y: 20)
+                    .cornerRadius(20)
                     .id(0)
                     
             } placeholder: {
-                Image(systemName: "photo")
+                Image(systemName: "title")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .cornerRadius(10)
+                    .cornerRadius(20)
                     .id(1)
                 
                 
@@ -36,6 +34,7 @@ struct CharacterViewRow: View {
             Text(character.name)
                 .font(.title)
                 .bold()
+                .foregroundColor(.blue)
                 .id(2)
             
                 
@@ -50,6 +49,26 @@ struct CharacterViewRow: View {
 
 struct CharacterViewRow_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterViewRow(character: CharacterResult(id: 1011334, name: "3-D Man", description: "Mockup Character", modified: "2014-04-29T14:18:17-0400", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "http://gateway.marvel.com/v1/public/characters/1011334", comics: Comics(available: 1, collectionURI: "http://gateway.marvel.com/v1/public/characters/1011334/comics", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), series: Comics(available: 1, collectionURI: "http://gateway.marvel.com/v1/public/characters/1011334/comics", items: [ComicsItem(resourceURI: "http://gateway.marvel.com/v1/public/comics/21366", name: "Avengers: The Initiative (2007) #14")], returned: 1), stories: Stories(available: 1, collectionURI: "http://gateway.marvel.com/v1/public/characters/1017100/stories", items: [StoriesItem(resourceURI: "http://gateway.marvel.com/v1/public/stories/92078", name: "Hulk (2008) #55", type: ItemType(rawValue: "Cover")!)], returned: 1), events: Comics(available: 1, collectionURI: "http://gateway.marvel.com/v1/public/characters/1010699/comics", items: [ComicsItem(resourceURI: "http://gateway.marvel.com/v1/public/comics/40776", name: "Dark Avengers (2012) #177")], returned: 1), urls: [URLElement(type: URLType.comiclink, url: "")]))
+        CharacterViewRow(character: CharacterResult(id: 1011334, name: "3-D Man", description: "description", modified: "modi", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "http://gateway.marvel.com/v1/public/characters/1011334",
+                                                    comics: Comics(available: 1,
+                                                      collectionURI: "",
+                                                      items: [ComicsItem(resourceURI: "", name: "")
+                                              ], returned: 1),
+                                                      series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")
+                                              ],
+                                                      returned: 1),
+                                                      stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "",
+                                                      name: "", type: ItemType(rawValue: "")!)
+                                              ], returned: 1),
+                                                      events: Comics(available: 1, collectionURI: "",
+                                                      items: [ComicsItem(resourceURI: "", name: "")
+                                              ], returned: 1),
+                                                       urls: [URLElement(type: URLType.comiclink, url: "")
+                                              ]))
+        
+        
+        
+        
+        
     }
 }

@@ -39,16 +39,17 @@ struct CharacterSeriesRow: View {
                     Image(systemName: "photo")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .cornerRadius(10)
+                        .cornerRadius(20)
                        
-                        .padding()
+                        .padding(20)
                         .id(2)
                     
                     
                 }
-                if let descripcion = serie.description {
-                    Text("\(descripcion)")
+                if let description = serie.description {
+                    Text("\(description)")
                         .font(.callout)
+                        .foregroundColor(.gray)
                  
                         .padding()
                         .id(3)
@@ -58,6 +59,7 @@ struct CharacterSeriesRow: View {
                 }else{
                     Text("Empty description")
                         .font(.callout)
+                        .foregroundColor(.red)
                     .padding()
                         .id(4)
                 }
@@ -67,7 +69,7 @@ struct CharacterSeriesRow: View {
                 
             }
             
-            .cornerRadius(10)
+            .cornerRadius(20)
         }
     }
     

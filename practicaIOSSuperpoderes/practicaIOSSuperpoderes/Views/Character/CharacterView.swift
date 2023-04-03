@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct CharacterView: View {
-
+    
     
     @StateObject var viewModel: CharacterViewModel
     @State private var filter = ""
     
     var body: some View {
-      
+        
         NavigationStack{
-
+            
+            
             List{
                 if let characters = viewModel.characters?.data.results{
                     
@@ -40,24 +41,23 @@ struct CharacterView: View {
             .onChange(of: filter) { newValue in
                 viewModel.getCharacters(filter: newValue)
             }
-            .navigationTitle("Marvel Characters")
+            .navigationTitle("Marvel Characters").toolbarColorScheme(.dark, for: .navigationBar)
             
-          
-       
-            
-
-
+            .toolbarBackground(
+                Color.blue,
+                for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
             
         }
         
     }
-}
-
     
     
-
-struct CharacterView_Previews: PreviewProvider {
-static var previews: some View {
-    CharacterView(viewModel: CharacterViewModel(testing: false))
-}
+    
+    
+    struct CharacterView_Previews: PreviewProvider {
+        static var previews: some View {
+            CharacterView(viewModel: CharacterViewModel(testing: false))
+        }
+    }
 }

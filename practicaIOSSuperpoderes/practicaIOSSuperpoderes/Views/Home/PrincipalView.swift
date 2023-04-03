@@ -17,6 +17,7 @@ struct PrincipalView: View {
            
            ZStack {
             
+            
            
            TabView(selection: $selection){
                            //Tab1

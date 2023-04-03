@@ -26,15 +26,20 @@ struct CharacterDetailView: View {
                 }
             }
             .id(0)
-            .navigationBarTitle("Series \(character.name)\(character.id)", displayMode: .inline)
-           
+            .navigationBarTitle("In Series: \(character.name)\(character.id)", displayMode: .inline).toolbarColorScheme(.dark, for: .navigationBar)
+            
+            .toolbarBackground(
+                Color.blue,
+                for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
         }
     }
 }
 
-struct CharacterDetailView_Previews: PreviewProvider {
+struct HeroDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterDetailView(viewModel: CharacterSeriesViewModel(testing: true, id: 1), character: CharacterResult(id: 1, name: "3-D Man", description: "mockup hero", modified: "014-04-29T14:18:17-0400014-04-29T14:18:17-0400", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "", comics: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "", name: "", type: ItemType(rawValue: "")!)], returned: 1), events: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), urls: [URLElement(type: URLType.comiclink, url: "")]))
+        CharacterDetailView(viewModel: CharacterSeriesViewModel(testing: true, id: 1), character: CharacterResult(id: 1011334, name: "3-D Man", description: "description", modified: "modi", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "http://gateway.marvel.com/v1/public/characters/1011334",
+                                                                                                                  comics: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "", name: "", type: ItemType(rawValue: "")!)], returned: 1), events: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), urls: [URLElement(type: URLType.comiclink, url: "")]))
     }
 }
 

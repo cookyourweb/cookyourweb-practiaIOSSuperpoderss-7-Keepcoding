@@ -32,7 +32,7 @@ struct CharacterResult: Codable, Identifiable {
     let comics, series: Comics
    let stories: Stories
     let events: Comics
-   let urls: [URLElement]
+ let urls: [URLElement]
 }
 
 // MARK: - Comics
