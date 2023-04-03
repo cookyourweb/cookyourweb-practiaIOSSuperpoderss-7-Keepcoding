@@ -7,3 +7,11 @@
 
 import Foundation
 import Combine
+
+final class RootViewModel: ObservableObject {
+    @Published var status = Status.none //
+    @Published var iSlogged: Bool = false
+    
+
+    
+}

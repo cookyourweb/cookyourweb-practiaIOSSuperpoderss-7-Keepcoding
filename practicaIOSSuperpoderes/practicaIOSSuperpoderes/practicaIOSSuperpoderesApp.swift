@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct practicaIOSSuperpoderesApp: App {
-    let persistenceController = PersistenceController.shared
+//    let persistenceController = PersistenceController.shared
     
     @StateObject var rootViewModel = CharacterViewModel()
 //    comento CoreData

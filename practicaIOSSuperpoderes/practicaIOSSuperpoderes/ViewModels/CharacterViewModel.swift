@@ -51,6 +51,7 @@ final class CharacterViewModel: ObservableObject {
     }
     
     func getCharactersTesting(){
+        
      
         
     }
