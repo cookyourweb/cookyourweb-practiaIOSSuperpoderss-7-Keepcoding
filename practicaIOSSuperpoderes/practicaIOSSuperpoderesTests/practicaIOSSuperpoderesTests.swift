@@ -34,12 +34,12 @@ final class practicaIOSSuperpoderesTests: XCTestCase {
         XCTAssertNotNil(view)
         
         
-
-//        number of views  (there is only one in  this view)
+        
+        //        number of views  (there is only one in  this view)
         
         let numItems =  try view.inspect().count
         XCTAssertEqual(numItems, 1)
-//        Error image
+        //        Error image
         
         let image = try view.inspect().find(viewWithId: 0)
         XCTAssertNotNil(image)
@@ -63,42 +63,42 @@ final class practicaIOSSuperpoderesTests: XCTestCase {
     
     
     func testCharacterViewRow() throws {
-            let view = CharacterViewRow(character: CharacterResult(id: 1011334, name: "3-D Man", description: "description", modified: "modi", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "http://gateway.marvel.com/v1/public/characters/1011334",comics: Comics(available: 1,collectionURI: "",items: [ComicsItem(resourceURI: "", name: "")], returned: 1),series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")],returned: 1),stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "",name: "", type: ItemType(rawValue: "")!)], returned: 1),events: Comics(available: 1, collectionURI: "",items: [ComicsItem(resourceURI: "", name: "")], returned: 1),urls: [URLElement(type: URLType.comiclink, url: "")]))
-            
-            XCTAssertNotNil(view)
-            
-             // Image
-            let image = try view.inspect().find(viewWithId: 0)
-            XCTAssertNotNil(image)
-            
-            // Placeholder Image
-            let placeholder = try view.inspect().find(viewWithId: 1)
-            XCTAssertNotNil(placeholder)
-            
-            // Load Text
-            let text = try view.inspect().find(viewWithId: 2)
-            XCTAssertNotNil(text)
-        }
+        let view = CharacterViewRow(character: CharacterResult(id: 1011334, name: "3-D Man", description: "description", modified: "modi", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "http://gateway.marvel.com/v1/public/characters/1011334",comics: Comics(available: 1,collectionURI: "",items: [ComicsItem(resourceURI: "", name: "")], returned: 1),series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")],returned: 1),stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "",name: "", type: ItemType(rawValue: "")!)], returned: 1),events: Comics(available: 1, collectionURI: "",items: [ComicsItem(resourceURI: "", name: "")], returned: 1),urls: [URLElement(type: URLType.comiclink, url: "")]))
+        
+        XCTAssertNotNil(view)
+        
+        // Image
+        let image = try view.inspect().find(viewWithId: 0)
+        XCTAssertNotNil(image)
+        
+        // Placeholder Image
+        let placeholder = try view.inspect().find(viewWithId: 1)
+        XCTAssertNotNil(placeholder)
+        
+        // Load Text
+        let text = try view.inspect().find(viewWithId: 2)
+        XCTAssertNotNil(text)
+    }
     
     
     //Models Testing
     
-//    MarvelCharacters Model Testing
+    //    MarvelCharacters Model Testing
     func testModels() throws {
-            let character = CharacterResult(id: 1, name: "Hulk", description: "Test", modified: "", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "", comics: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "", name: "", type: ItemType(rawValue: "")!)], returned: 1), events: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), urls: [URLElement(type: URLType.comiclink, url: "")])
-            
-            XCTAssertNotNil(character)
-            XCTAssertEqual(character.name, "Hulk")
-            XCTAssertEqual(character.description, "Test")
-            XCTAssertEqual(character.thumbnail.path, "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784")
-            XCTAssertEqual(character.thumbnail.thumbnailExtension, "jpg")
-            
-      
-            
-        }
+        let character = CharacterResult(id: 1, name: "Hulk", description: "Test", modified: "", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "", comics: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "", name: "", type: ItemType(rawValue: "")!)], returned: 1), events: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), urls: [URLElement(type: URLType.comiclink, url: "")])
+        
+        XCTAssertNotNil(character)
+        XCTAssertEqual(character.name, "Hulk")
+        XCTAssertEqual(character.description, "Test")
+        XCTAssertEqual(character.thumbnail.path, "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784")
+        XCTAssertEqual(character.thumbnail.thumbnailExtension, "jpg")
+        
+        
+        
+    }
     
-//    Combine Testing( se hace un testing para una llamada de red. En la realidad nunca se hace, tendríamos  que crear protocolos. Ya que hay contraseñas y seguridad de por medio que es testeable)
-
+    //    Combine Testing( se hace un testing para una llamada de red. En la realidad nunca se hace, tendríamos  que crear protocolos. Ya que hay contraseñas y seguridad de por medio que es testeable)
+    
     
     func testCharacterViewModel() throws {
         //Suscriptor
@@ -106,7 +106,7 @@ final class practicaIOSSuperpoderesTests: XCTestCase {
         
         let expectation = self.expectation(description: "Get characters")
         
-        let vm = CharacterViewModel(testing: false)
+        let vm = CharacterViewModel(testing: true)
         XCTAssertNotNil(vm)
         
         // y Observador
@@ -124,10 +124,20 @@ final class practicaIOSSuperpoderesTests: XCTestCase {
             }
             .store(in: &suscriptor)
         
-        vm.getCharacters(filter: "")
+        //vm.getCharacters(filter: "")
+        vm.getCharactersTesting()
         
-        self.waitForExpectations(timeout: 10)
-        
+        self.waitForExpectations(timeout: 10)//espera 10 sg al expectation
         
     }
+    
+    
+    //    testing del interactor de viewmodel de characters como tendríamos que hacerlo . ya que en el viewmodel se puede hacer la inyeccion de dependencias de otro sitio.
+    //    NetworkedProtocol
+    
+    //todo
+//    func testCharacterLoad() throws {}
+       
+        
+    
 }
