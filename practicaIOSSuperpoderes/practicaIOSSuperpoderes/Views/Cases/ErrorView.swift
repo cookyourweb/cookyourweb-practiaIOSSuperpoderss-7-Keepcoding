@@ -54,6 +54,6 @@ struct ErrorView: View {
 
 struct ErrorView_Previews: PreviewProvider {
     static var previews: some View {
-        ErrorView(error: "Error de prueba").environmentObject(CharacterViewModel())
+        ErrorView(error: "Testing").environmentObject(CharacterViewModel())
     }
 }

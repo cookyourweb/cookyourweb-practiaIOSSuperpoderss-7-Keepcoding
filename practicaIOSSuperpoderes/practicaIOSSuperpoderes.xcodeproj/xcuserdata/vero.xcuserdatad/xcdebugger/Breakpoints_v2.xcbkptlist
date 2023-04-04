@@ -64,6 +64,38 @@
             endingLineNumber = "61"
             landmarkName = "StoriesItem"
             landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "D9E3437D-5994-4264-874E-D34D3A315D8D - 80a0523dd7f606ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "practicaIOSSuperpoderes.StoriesItem.init(resourceURI: Swift.String, name: Swift.String, type: practicaIOSSuperpoderes.ItemType) -&gt; practicaIOSSuperpoderes.StoriesItem"
+                  moduleName = "practicaIOSSuperpoderes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vero/Desktop/etregaSuperPoderes/practicaIOSSuperpoderes/practicaIOSSuperpoderes/Models/MarvelCharactersModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "47">
+               </Location>
+               <Location
+                  uuid = "D9E3437D-5994-4264-874E-D34D3A315D8D - 2a2dc8dc00aabecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "practicaIOSSuperpoderesTests.StoriesItem.init(resourceURI: Swift.String, name: Swift.String, type: practicaIOSSuperpoderesTests.ItemType) -&gt; practicaIOSSuperpoderesTests.StoriesItem"
+                  moduleName = "practicaIOSSuperpoderesTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vero/Desktop/etregaSuperPoderes/practicaIOSSuperpoderes/practicaIOSSuperpoderes/Models/MarvelCharactersModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "47">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

@@ -49,22 +49,7 @@ struct CharacterViewRow: View {
 
 struct CharacterViewRow_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterViewRow(character: CharacterResult(id: 1011334, name: "3-D Man", description: "description", modified: "modi", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "http://gateway.marvel.com/v1/public/characters/1011334",
-                                                    comics: Comics(available: 1,
-                                                      collectionURI: "",
-                                                      items: [ComicsItem(resourceURI: "", name: "")
-                                              ], returned: 1),
-                                                      series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")
-                                              ],
-                                                      returned: 1),
-                                                      stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "",
-                                                      name: "", type: ItemType(rawValue: "")!)
-                                              ], returned: 1),
-                                                      events: Comics(available: 1, collectionURI: "",
-                                                      items: [ComicsItem(resourceURI: "", name: "")
-                                              ], returned: 1),
-                                                       urls: [URLElement(type: URLType.comiclink, url: "")
-                                              ]))
+        CharacterViewRow(character: CharacterResult(id: 1011334, name: "3-D Man", description: "description", modified: "modi", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "http://gateway.marvel.com/v1/public/characters/1011334",comics: Comics(available: 1,collectionURI: "",items: [ComicsItem(resourceURI: "", name: "")], returned: 1),series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")],returned: 1),stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "",name: "", type: ItemType(rawValue: "")!)], returned: 1),events: Comics(available: 1, collectionURI: "",items: [ComicsItem(resourceURI: "", name: "")], returned: 1),urls: [URLElement(type: URLType.comiclink, url: "")]))
         
         
         
