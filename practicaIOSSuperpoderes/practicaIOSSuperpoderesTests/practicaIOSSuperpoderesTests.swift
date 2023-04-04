@@ -97,4 +97,37 @@ final class practicaIOSSuperpoderesTests: XCTestCase {
             
         }
     
+//    Combine Testing( se hace un testing para una llamada de red. En la realidad nunca se hace, tendríamos  que crear protocolos. Ya que hay contraseñas y seguridad de por medio que es testeable)
+
+    
+    func testCharacterViewModel() throws {
+        //Suscriptor
+        var suscriptor = Set<AnyCancellable>()
+        
+        let expectation = self.expectation(description: "Get characters")
+        
+        let vm = CharacterViewModel(testing: false)
+        XCTAssertNotNil(vm)
+        
+        // y Observador
+        vm.characters.publisher
+            .sink { completion in
+                switch completion{
+                case.finished:
+                    XCTAssertEqual(1, 1)
+                    expectation.fulfill()
+                case.failure:
+                    XCTAssertEqual(1, 2)
+                    expectation.fulfill()
+                }
+            } receiveValue: { data in
+            }
+            .store(in: &suscriptor)
+        
+        vm.getCharacters(filter: "")
+        
+        self.waitForExpectations(timeout: 10)
+        
+        
+    }
 }
