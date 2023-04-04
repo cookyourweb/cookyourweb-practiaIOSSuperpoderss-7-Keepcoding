@@ -80,4 +80,21 @@ final class practicaIOSSuperpoderesTests: XCTestCase {
             XCTAssertNotNil(text)
         }
     
+    
+    //Models Testing
+    
+//    MarvelCharacters Model Testing
+    func testModels() throws {
+            let character = CharacterResult(id: 1, name: "Hulk", description: "Test", modified: "", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"), resourceURI: "", comics: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), series: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), stories: Stories(available: 1, collectionURI: "", items: [StoriesItem(resourceURI: "", name: "", type: ItemType(rawValue: "")!)], returned: 1), events: Comics(available: 1, collectionURI: "", items: [ComicsItem(resourceURI: "", name: "")], returned: 1), urls: [URLElement(type: URLType.comiclink, url: "")])
+            
+            XCTAssertNotNil(character)
+            XCTAssertEqual(character.name, "Hulk")
+            XCTAssertEqual(character.description, "Test")
+            XCTAssertEqual(character.thumbnail.path, "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784")
+            XCTAssertEqual(character.thumbnail.thumbnailExtension, "jpg")
+            
+      
+            
+        }
+    
 }
