@@ -23,9 +23,9 @@ struct RootView: View {
         case .loaded:
            PrincipalView()
         case .error(error: let errorString):
-            Text("Error-> \(errorString)")
+            ErrorView(error: errorString)
         case .loading:
-         LoaderView()
+            LoaderView()
         }
     }
 }
